@@ -1,0 +1,23 @@
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.border{
+    border-radius: 5%;
+}
+
+#home{
+    background: #4493D6;
+}
+
+.cracha{
+    background: #6D9D61;
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.man{
+    display: flex;
+    flex-direction: row;
+}
