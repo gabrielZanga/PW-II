@@ -1,0 +1,79 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .menu-1{
+        background-color: rgba(0, 0, 0, 0.384);
+        color: white;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul{
+        height: 40px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    li{
+        font-size: 20px;
+        align-items: center;
+        display: flex; 
+    }
+
+    .menu-1 a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        transition: 0.2s linear;
+    }
+
+    #logo-republica{
+        position: relative;
+        width: 200px;
+        
+        
+    }
+
+    #gov-br{
+        position: relative;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        transition: 0.5s linear;
+    }
+
+    li a:hover{
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+
+    #titulo-1{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .hr{
+        color: black;
+    }
+
+    #gov-br:hover{
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .pai{
+        margin-left: 15px;
+        margin-top: 10px;
+    }
