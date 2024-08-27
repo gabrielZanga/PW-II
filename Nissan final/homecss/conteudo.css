@@ -1,0 +1,131 @@
+#conteudoC{
+    width: 80vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+#conteudoC h1{
+    padding-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#frontier{
+    height: 50vh;
+    width: 50%;
+    padding: 3%;
+}
+
+.frontier iframe{
+    float: left;
+}
+
+.frontier h2{
+    padding-top: 3.5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frontier {
+    height: 100%;
+    display: flex;
+}
+
+#contex{
+    padding-top: 1%;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudoD{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+#carro1 img{
+    float: left;
+    height: auto;
+    width: 45%;
+    padding: 3%;
+}
+
+#carro1 h1{
+    padding-top: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#carro1 p{
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 3%;
+}
+
+#carro1{
+    height:80vh;
+}
+
+.botao{
+    text-align: center;
+    font-size: 170%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 0.7%;
+    margin-left: 22%;
+    border-radius: 42px;
+}
+
+.botao:hover{
+    background-color: black;
+    transition: 0.15s;
+}
+
+#container2{
+    background-image: url(../imagens/pic-banner-sentra-1.webp);
+    height: 83vh;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulot2{
+    color: white;
+    font-family: sans-serif;
+}
+
+#container2 h1{
+    text-decoration: overline;
+    font-size: 250%;
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+#container2 p{
+    font-size: 110%;
+    padding-left: 2%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.copy{
+    font-family: monospace;
+    font-size: 0.5em small;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 27%;
+    color: white;
+  }
+#ulS{
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}

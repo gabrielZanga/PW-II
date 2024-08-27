@@ -1,0 +1,63 @@
+#Hconteudo {
+  color: white;
+  width: 80%;
+  height: auto;
+  background-color: rgb(35, 35, 35);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Hconteudo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  
+  font-size: 300%;
+}
+
+#Hconteudo h2 {
+    color: white;
+    text-align: center;
+}
+
+#HTconteudo p{
+    margin: 0 auto;
+    font-size: larger;
+    width: 95%;
+    height: 95%;
+}
+
+#img1{
+    width: 95%;
+    height: 95%;
+    margin: 2.5%;
+}
+
+#img2{
+  width: 95%;
+  height: 95%;
+  margin: 2.5%;
+}
+
+#espaco{
+    margin-top: 10%;
+    width: 100%;
+}
+
+#nissanbr{
+  margin-top: 35px;
+}
+
+#nissanbr p{
+  font-size: larger;
+  margin-left: 2.5%;
+}
+.copy{
+  height: 5vh;
+  background-color: black;
+  font-family: monospace;
+  font-size: small;
+  text-align: center;
+  margin-top: 4%;
+  color: white;
+}

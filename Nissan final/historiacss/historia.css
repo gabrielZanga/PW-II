@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+}
+
+#container {
+  width: 100%;
+  height: auto;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 25s slider infinite;
+}
+
+#slider figure img {
+  float: left;
+  width: 20%;
+  z-index: 1;
+}
+
+#slider {
+  position: absolute;
+  height: 50vw;
+}
+
+#conteudo {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.4682247899159664) 44%,
+    rgba(0, 0, 0, 1) 99%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.4682247899159664) 44%,
+    rgba(0, 0, 0, 1) 99%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.4682247899159664) 44%,
+    rgba(0, 0, 0, 1) 99%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000000", GradientType=1);
+  position: relative;
+  z-index: 2;
+  height: 79.8vh;
+}
+
+#topo-b{
+  height: 4.5vh;
+  width:100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.439);
+}
+
+#topo-b:hover #menuH a{
+    color: black;
+}
+
+.imagens {
+  width: 98vw;
+  height: 79.8vh;
+}
+
+#logo {
+  margin-bottom: 29%;
+  padding: 1%;
+  padding-top: 10%;
+}
+.setinha{
+  transition: 0.3s;
+}
+.suporte:hover .setinha {
+  transition: 0.3s;
+  transform: rotate(0.5turn);
+}
+
+#right{
+  margin-left: 53%;
+}
+
+#menuH {
+  position: relative;
+  z-index: 99;
+  height: 2vw;
+  padding: 0.7%;
+  display: inline-flex;
+  list-style: none;
+}
+
+#menuH a {
+  padding-left: 2vw;
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+#menuH a:hover {
+  transition:0.15s;
+  color: rgb(184, 184, 184);
+}
+
+#resp-suporte {
+  margin-bottom: 50%;
+  display: none;
+  list-style: none;
+}
+
+#resp-suporte a {
+  color: black;
+}
+
+#resp-suporte a:hover {
+  color: rgb(80, 80, 80);
+}
+
+.suporte:hover #resp-suporte {
+  text-align: center;
+  display: list-item;
+  background-color: white;
+}
+
+.home,
+.promocoes,
+.nh,
+.veiculos {
+  padding-top: 0.8%;
+}
+
+body.Bhome #menuH .home #home,
+body.Bhistoria #menuH .nh #nh{
+
+  text-decoration: underline red;
+}
+
+#coisa {
+  padding: 1%;
+  float: left;
+}
+
+.butao {
+  margin: 3.5%;
+  width:110% ;
+}
+
+#confira{
+  font-family: monospace;
+  text-align: center;
+  padding: 2%;
+  color: white;
+  font-size: 134%;
+  margin-bottom: 10%;
+  padding: 1.2%;
+  border-radius:15px;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,0.42620798319327735) 100%, rgba(0,0,0,0.7847514005602241) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.42620798319327735) 100%, rgba(0,0,0,0.7847514005602241) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.42620798319327735) 100%, rgba(0,0,0,0.7847514005602241) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.butao a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4%;
+  border-radius: 42px;
+  background: rgb(0, 0, 0);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.6979166666666667) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.6979166666666667) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.6979166666666667) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.butao a:hover {
+  text-decoration: underline;
+  background: rgb(0, 0, 0);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.9) 0%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.9) 0%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.9) 0%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+#curiosidade{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40%;
+  margin-right: 13%;
+  font-size: 110%;
+  color: white;
+  text-align:right;
+}
+
+

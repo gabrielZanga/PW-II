@@ -1,0 +1,173 @@
+#conteudoV{
+    width: 85vw;
+    height: auto;
+    background-color: rgb(234, 234,234);
+    margin: 0 auto;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+}
+#c1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+#c2{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+#c3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.carros1{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 40%;
+    margin: 1%;
+}
+.carros2{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 40%;
+    margin: 1%;
+}
+.carros3{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 40%;
+    margin: 1%;
+}
+.slide img{
+    overflow: hidden;
+}
+.slidershow{
+    margin: 0 auto;
+    width: 99%;
+    height: 65%;
+    overflow: hidden;
+}
+.navegation{
+    height: auto;
+    width: 30vh;
+    position: absolute;
+    bottom: -27%;
+    left: 22%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.navegation label{
+    float: right;
+}
+.navegation2{
+    height: auto;
+    width: 30vh;
+    position: absolute;
+    bottom: -27%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.navegation2 label{
+    float: right;
+}
+.navegation3{
+    height: auto;
+    width: 30vh;
+    position: absolute;
+    bottom: -27%;
+    left: 79%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.navegation3 label{
+    float: right;
+}
+.bar{
+    width: 50%;
+    height: 10px;
+    border: 2px solid#fff;
+    margin: 2%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.bar:hover{
+    background-color: rgb(255, 255, 255);
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}#r3:checked ~ .s1{
+    margin-left: -40%;
+}#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+#r6:checked ~ .s1{
+    margin-left: 0;
+}
+#r7:checked ~ .s1{
+    margin-left: -20%;
+}#r8:checked ~ .s1{
+    margin-left: -40%;
+}#r9:checked ~ .s1{
+    margin-left: -60%;
+}
+#r10:checked ~ .s1{
+    margin-left: -80%;
+}
+
+#r11:checked ~ .s1{
+    margin-left: 0;
+}
+#r12:checked ~ .s1{
+    margin-left: -20%;
+}#r13:checked ~ .s1{
+    margin-left: -40%;
+}#r14:checked ~ .s1{
+    margin-left: -60%;
+}
+#r15:checked ~ .s1{
+    margin-left: -80%;
+}
+#dividida h3{
+    margin-top: 5%;
+    padding-bottom: 31%;
+}
+#conteudoV a{
+    color: #ffffff;
+    background: #000;
+    padding: 3%;
+    border-radius: 45px;
+    text-decoration:none ;
+    transition: 0.15s;
+}
+#conteudoV a:hover{
+    background: #313131;
+    transition: 0.15s;
+}
